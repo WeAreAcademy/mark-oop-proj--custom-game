@@ -1,5 +1,5 @@
 {
-  "name": "mark-oop-proj--connect-four",
+  "name": "mark-oop-proj--custom-game",
   "version": "1.0.0",
   "scripts": {
     "test": "jest --watch"
