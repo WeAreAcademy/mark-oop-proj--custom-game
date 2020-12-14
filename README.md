@@ -18,52 +18,56 @@ tags:
 
 ## Context
 
-You work for a game development company.
+You are interning for a game development company.
 
-After your [great work on Tic Tac Toe](https://github.com/WeAreAcademy/mark-oop-proj--tic-tac-toe), you have been tasked with creating a Connect Four game.
+After your great work on [Tic Tac Toe](https://github.com/WeAreAcademy/mark-oop-proj--tic-tac-toe) and [Connect Four](https://github.com/WeAreAcademy/mark-oop-proj--tic-tac-toe), you have been given an opportunity to pitch and build a game of your choosing - an opportunity reserved for star interns of the past before!
 
-A colleague has given you two things as a starting point:
-1. `connect-four.spec.ts`: some tests to guide your work; and
-2. `connect-four.ts`: some starter code (an interface and some types).
+Previous star interns have pitched and built games of:
+- Mastermind
+- Hangman
+- Blackjack
 
-## Exercise 1: First thoughts and plans
+(These files were all lost in a sad accident, so this shouldn't stop you from trying your hand at one of those specific examples.)
 
-Record some initial thoughts on the project.
+## Exercise 1: Plan the idea
 
-You might find it helpful to consider the following prompts:
+What's your plan? How should the game work? Well, it's up to you.
 
-1. What are the similarities and differences between this proposed Connect Four game and your previous Tic Tac Toe game?
-2. Which of the tests are easier and harder to decipher the intent behind?
-3. How should the game work? Can you sketch out an example?
+However, you should probably scope it out before you spend loads of time implementing, so your first job is to:
 
+- Prepare a specification for the game
+  - What goes in your first version? (Think ['minimum viable product'](https://www.agilealliance.org/glossary/mvp))
+  - What goes in further versions?
+- Estimate how long it will take you to complete the first version
 
-## Exercise 2: Tackle the tests
+Possible artefacts of this are:
+- A markdown file describing the project
+- Some written tests which capture the specification
+- A list of sub-tasks which collectively compose the whole project
 
-Now it's time to try to write code to make the tests pass.
+## Exercise 2: Build the project
 
-You might find it more manageable to be focused with the tests you tackle - check out the Jest documentation on [`.only`](https://jestjs.io/docs/en/api#testonlyname-fn-timeout) and [`.skip`](https://jestjs.io/docs/en/api#testskipname-fn).
+Now, you get to try to enact your plan.
 
+Keep a track of how long it's taking you compared to what you expected.
 
-## Exercise 3: Scope out another feature
+## Exercise 3: Plan a presentation
 
-The initial specification and tests can be extended.
+To mark the end of your internship, you have been asked to deliver a presentation on this project.
 
-For example, you could:
-- Add an option to start with O instead of X
-- Add 'restart game' functionality
-- Add an 'undo last move' feature
+You have a time guidance of ~5 minutes, with the expectation that this includes:
+- A short demo of the result
+- A quick tour through the codebase
+- An explanation of your working and lessons learned
 
-(and other things not listed)
-
-You should:
-1. Scope out 3 possible ways of extending the game
-2. Estimate how long it will take to implement these
-3. Choose at least one of these to implement (including tests)
+You have been asked to record yourself making this presentation (for posterity!), e.g. using a tool like [Screenity](https://www.producthunt.com/posts/screenity).
 
 ## Exercise 4: Reflect on the process
 
 For the Tic Tac Toe project, you were amending some existing code.
 
-In this project, you had to write most of the code from scratch yourself.
+For the Connect Four project, you had to following an existing specification (but then write most of the code from scratch yourself).
 
-What was the difference between these two experiences?
+For this project, you have designed the specification yourself.
+
+How does this last experience compare to the other two? What are the challenges associated with it?
